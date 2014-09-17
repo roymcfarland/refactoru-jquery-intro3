@@ -1,0 +1,42 @@
+.button-wrapper {
+	padding: 300px 300px;
+}
+
+.giant-button {
+	font-size: 5em;
+	color: green;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: table;
+	padding: 10px;
+}
+
+.lightbox-box {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: 250px;
+}
+
+.lightbox-box h3 {
+	font-weight: bold;
+}
+
+#button {
+	float: right;
+	color: white;
+	background-color: #EB8AAE;
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+}
